@@ -58,6 +58,7 @@ export default {
   ],
 
   router: {
+    base: '/mdrn/',
     mode: 'history',
     extendRoutes(routes, resolve) {
       routes.push({
